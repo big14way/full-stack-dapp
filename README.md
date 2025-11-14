@@ -4,6 +4,35 @@ This repository contains a basic decentralized application (DApp) that demonstra
 
 Visit [https://web3-dapp-wave.netlify.app/](https://web3-dapp-wave.netlify.app/) in your web browser to interact with the DApp.
 
+## WalletConnect Integration 🔗
+
+This DApp now supports **WalletConnect v2** powered by Reown AppKit, enabling connections to 300+ cryptocurrency wallets including:
+- MetaMask (browser extension and mobile)
+- Trust Wallet
+- Rainbow Wallet
+- Coinbase Wallet
+- Ledger Live
+- And many more!
+
+### Features
+- **Multi-Wallet Support**: Connect via MetaMask or any WalletConnect-compatible wallet
+- **QR Code Modal**: Scan QR code with your mobile wallet for easy connection
+- **Multi-Network Support**: Goerli, Sepolia, Ethereum Mainnet, Polygon, Mumbai, Base, Base Sepolia
+- **Session Persistence**: Automatically reconnects to your last wallet
+- **Modern UI**: Clean wallet connection button with wallet info display
+
+### WalletConnect Project ID
+Project ID: `1eebe528ca0ce94a99ceaa2e915058d7`
+
+Get your own project ID at [Reown Cloud](https://cloud.reown.com/)
+
+### Libraries Used
+- `@reown/appkit@1.7.18` - Modern WalletConnect SDK
+- `@reown/appkit-adapter-wagmi@1.7.18` - Wagmi adapter for AppKit
+- `wagmi` - React hooks for Ethereum
+- `viem` - TypeScript Ethereum library
+- `@tanstack/react-query` - Data fetching and caching
+
 ## Prerequisites 🛠️
 
 Make sure you have the following tools installed on your machine:
